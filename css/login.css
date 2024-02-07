@@ -76,7 +76,7 @@ main p {
 button {
   display: flex;
   text-align: center;
-  margin-left: 65px;
+  margin-left: 70px;
   margin-top: 28px;
   padding: 6px 100px;
   border-radius: 7px;
@@ -96,4 +96,5 @@ span {
   font-weight: 700;
   text-align: center;
   padding: 14px;
+  margin-left: 10px;
 }
