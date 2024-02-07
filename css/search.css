@@ -124,7 +124,6 @@ main {
 
 
 .item {
-  border: 2px solid rebeccapurple;
   display: flex;
   padding-top: 10px;
   margin-left: -10px;
