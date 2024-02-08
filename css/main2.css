@@ -19,21 +19,20 @@ header {
   background: #ffcbcb;
 }
 
-header h1 {}
-
 header h1 a {
   display: block;
   width: 30px;
   height: 30px;
   background: url('../img/Rectangle\ 2x.png') center center / contain no-repeat;
   text-indent: -9999px;
-  margin: 15px;
+  margin: 10px;
 }
 
 header p {
   text-align: center;
   font-size: 12px;
   font-weight: 600;
+  margin-left: 15px;
 }
 
 .top_menu {
@@ -55,6 +54,8 @@ header p {
   font-size: 12px;
   padding-bottom: 5px;
 }
+
+/**********************************************/
 
 main h1 {
   text-align: center;
