@@ -19,15 +19,13 @@ header {
   background: #ffcbcb;
 }
 
-header h1 {}
-
 header h1 a {
   display: block;
   width: 30px;
   height: 30px;
   background: url('../img/Rectangle\ 2x.png') center center / contain no-repeat;
   text-indent: -9999px;
-  margin: 15px;
+  margin: 10px;
 }
 
 header p {
@@ -56,9 +54,15 @@ header p {
   padding-bottom: 5px;
 }
 
+/********************************************************************/
+
 .main_menu {
+  max-width: 690px;
+  min-width: 300px;
   border-bottom: 1px solid #111;
+  text-align: center;
   margin: 0 20px;
+  
 }
 
 .menu {
@@ -68,11 +72,7 @@ header p {
   font-size: 12px;
 }
 
-.menu>li {}
-
-.menu>li>a {}
-
-h1 {
+main h1 {
   text-align: center;
   font-size: 12px;
   font-weight: 900;
@@ -106,10 +106,6 @@ section span {
   font-size: 5px;
 }
 
-.section2 {}
-
-.section2 div {}
-
 .section2 img {
   justify-content: center;
   margin-top: 22px;
@@ -124,11 +120,6 @@ section span {
 .section2 span {
   font-size: 7px;
 }
-
-.section3 {}
-
-.section3 div {}
-
 .section3 h2 {
   margin-top: 24px;
   font-size: 24px;
