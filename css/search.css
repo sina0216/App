@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+body {
+  color: #111;
+}
+
+.top {
+  max-width: 690px;
+  min-width: 300px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+header {
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffcbcb;
+}
+
+header h1 a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url('../img/Rectangle\ 2x.png') center center / contain no-repeat;
+  text-indent: -9999px;
+  margin: 10px;
+}
+
+header p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.top_menu {
+  display: flex;
+}
+
+.top_menu .searchBtn {
+  display: block;
+  width: 13px;
+  height: 13px;
+  background: url('../img/Search.png') center center / contain no-repeat;
+  text-indent: -9999px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.top_menu .cartBtn {
+  margin-right: 15px;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+
+/**************************************************/
+
+.inner {
+  position: relative;
+  width: 344px;
+  height: 36px;
+  margin: 20px auto;
+  border: 2px solid #bdc1c6;
+  border-radius: 4px;
+}
+
+input {
+  width: 90%;
+  height: 100%;
+  border-color: #bdc1c6;
+  border: 0px;
+  font-size: 16px;
+  outline: none;
+  padding-left: 30px;
+}
+
+.searching img {
+  position: absolute;
+  left: 10px;
+  top: 25%;
+  width: 16px;
+  height: 16px;
+}
+
+.icon_ect img {
+  position: absolute;
+  right: 10px;
+  top: 25%;
+  width: 11px;
+  height: 16px;
+}
+
+/******************************************************/
+main p {
+  font-size: 17px;
+  font-weight: 800;
+  margin-left: 30px;
+}
+
+
+
+button {
+  outline: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+main {
+  max-width: 600px;
+  min-width: 360px;
+  margin: auto;
+  border-radius: 16px;
+}
+
+#content {
+  padding: 10px 30px 30px;
+  height: 500px;
+  overflow-y: auto;
+}
+
+
+.item {
+  display: flex;
+  padding-top: 10px;
+  margin-left: -10px;
+}
+
+.item_name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.itemDel_btn {
+  color: #777070;
+  transition: 0.2s ease-in;
+}
+
+.itemDel_btn img {
+  width: 14px;
+  height: 14px;
+  margin-bottom: 10px;
+}
+
+.itemDel_btn:hover {
+  transform: scale(1.1);
+}
